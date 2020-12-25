@@ -140,20 +140,20 @@ public class TestOne {
 
     static class Test1 {
 
-        public static void main(String[] args) throws CloneNotSupportedException {
-            TestEntity a = new TestEntity(1, "aa");
-            List<TestEntity> aList = new ArrayList<>();
-            int count = 0;
-            while (true) {
-                TestEntity clone = (TestEntity)a.clone();
-                aList.add(clone);
-                count ++;
-                if (count == 100000) {
-                    break;
-                }
-            }
-            aList.get(3).setId(10);
-            System.out.println(aList.get(1111));
-        }
+//        public static void main(String[] args) throws CloneNotSupportedException {
+//            TestEntity a = new TestEntity(1, "aa");
+//            List<TestEntity> aList = new ArrayList<>();
+//            int count = 0;
+//            while (true) {
+//                TestEntity clone = (TestEntity)a.clone();
+//                aList.add(clone);
+//                count ++;
+//                if (count == 100000) {
+//                    break;
+//                }
+//            }
+//            aList.get(3).setId(10);
+//            System.out.println(aList.get(1111));
+//        }
     }
 }
